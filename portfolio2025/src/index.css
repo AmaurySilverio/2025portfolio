@@ -15,8 +15,8 @@ body, html{
   z-index: 1;
   position: relative;
   background: rgb(250, 237, 203);
-  height: 100dvh;
-  overflow: hidden;
+  /* height: 100dvh;
+  overflow: hidden; */
 }
 /* HERO STYLING */
 .hero-container{
