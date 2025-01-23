@@ -8,13 +8,14 @@
 
 body, html{
   margin: 0;
-  height: 100svh;
+  /* height: 100svh; */
 }
 .container{
   z-index: 1;
   position: relative;
   background: rgb(250, 237, 203);
   height: 100svh;
+  overflow: hidden;
 }
 /* HERO STYLING */
 .hero-container{
@@ -410,7 +411,7 @@ body, html{
     font-size: 41px;
   }
   .photo-container img{
-    top: 136px;
+    top: 103px;
     width: 280px;
     height: 360px;
 }
