@@ -2,11 +2,13 @@
 
 *{
   font-family: "Overpass Mono";
+  box-sizing: border-box;
+
 }
 
-body{
+body, html{
   margin: 0;
-  height: 100svh;
+  /* height: 100svh; */
 }
 .container{
   z-index: 1;
