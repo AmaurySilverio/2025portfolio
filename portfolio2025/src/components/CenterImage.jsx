@@ -191,218 +191,107 @@ const CenterImage = () => {
   return (
     <div className="photo-container">
       <div
-        className="photoTopLeft"
         onMouseEnter={() => setHeadshot(headshot1)}
         onTouchMove={(e) => trackPointer(e)}
-      >
-        1
-      </div>
+      ></div>
       <div
-        className="photoTopCenter"
         onMouseEnter={() => setHeadshot(headshot2)}
         onTouchMove={(e) => trackPointer(e)}
-      >
-        2
-      </div>
+      ></div>
       <div
-        className="photoTopRight"
         onMouseEnter={() => setHeadshot(headshot3)}
         onTouchMove={(e) => trackPointer(e)}
-      >
-        3
-      </div>
+      ></div>
       <div
-        className="photoMiddleLeft"
         onMouseEnter={() => setHeadshot(headshot4)}
         onTouchMove={(e) => trackPointer(e)}
-      >
-        4
-      </div>
+      ></div>
       <div
-        className="photoMiddleCenter"
         onMouseEnter={() => setHeadshot(headshot5)}
         onTouchMove={(e) => trackPointer(e)}
-      >
-        5
-      </div>
+      ></div>
       <div
-        className="photoMiddleRight"
         onMouseEnter={() => setHeadshot(headshot16)}
         onTouchMove={(e) => trackPointer(e)}
-      >
-        6
-      </div>
+      ></div>
       <div
-        className="photoBottomLeft"
         onMouseEnter={() => setHeadshot(headshot1)}
         onTouchMove={(e) => trackPointer(e)}
-      >
-        7
-      </div>
+      ></div>
       <div
-        className="photoBottomCenter"
         onMouseEnter={() => setHeadshot(headshot3)}
         onTouchMove={(e) => trackPointer(e)}
-      >
-        8
-      </div>
+      ></div>
       <div
-        className="photoBottomRight"
         onMouseEnter={() => setHeadshot(headshot5)}
         onTouchMove={(e) => trackPointer(e)}
-      >
-        9
-      </div>
+      ></div>
       <div
-        className="photoBottomRight"
         onMouseEnter={() => setHeadshot(headshot6)}
         onTouchMove={(e) => trackPointer(e)}
-      >
-        10
-      </div>
+      ></div>
       <div
-        className="photoBottomRight"
         onMouseEnter={() => setHeadshot(headshot15)}
         onTouchMove={(e) => trackPointer(e)}
-      >
-        11
-      </div>
+      ></div>
       <div
-        className="photoBottomRight"
         onMouseEnter={() => setHeadshot(headshot15)}
         onTouchMove={(e) => trackPointer(e)}
-      >
-        12
-      </div>
+      ></div>
       <div
-        className="photoBottomRight"
         onMouseEnter={() => setHeadshot(originalHeadshot)}
         onTouchMove={(e) => trackPointer(e)}
         onClick={() => setHeadshot(clickedHeadshot)}
-      >
-        13
-      </div>
+      ></div>
       <div
-        className="photoBottomRight"
         onMouseEnter={() => setHeadshot(headshot7)}
         onTouchMove={(e) => trackPointer(e)}
-      >
-        14
-      </div>
+      ></div>
       <div
-        className="photoBottomRight"
         onMouseEnter={() => setHeadshot(headshot7)}
         onTouchMove={(e) => trackPointer(e)}
-      >
-        15
-      </div>
+      ></div>
       <div
-        className="photoBottomRight"
         onMouseEnter={() => setHeadshot(headshot14)}
         onTouchMove={(e) => trackPointer(e)}
-      >
-        16
-      </div>
+      ></div>
       <div
-        className="photoBottomRight"
         onMouseEnter={() => setHeadshot(headshot13)}
         onTouchMove={(e) => trackPointer(e)}
-      >
-        17
-      </div>
+      ></div>
       <div
-        className="photoBottomRight"
         onMouseEnter={() => setHeadshot(headshot11)}
         onTouchMove={(e) => trackPointer(e)}
-      >
-        18
-      </div>
+      ></div>
       <div
-        className="photoBottomRight"
         onMouseEnter={() => setHeadshot(headshot9)}
         onTouchMove={(e) => trackPointer(e)}
-      >
-        19
-      </div>
+      ></div>
       <div
-        className="photoBottomRight"
         onMouseEnter={() => setHeadshot(headshot8)}
         onTouchMove={(e) => trackPointer(e)}
-      >
-        20
-      </div>
+      ></div>
       <div
-        className="photoBottomRight"
         onMouseEnter={() => setHeadshot(headshot13)}
         onTouchMove={(e) => trackPointer(e)}
-      >
-        21
-      </div>
+      ></div>
       <div
-        className="photoBottomRight"
         onMouseEnter={() => setHeadshot(headshot12)}
         onTouchMove={(e) => trackPointer(e)}
-      >
-        22
-      </div>
+      ></div>
       <div
-        className="photoBottomRight"
         onMouseEnter={() => setHeadshot(headshot11)}
         onTouchMove={(e) => trackPointer(e)}
-      >
-        23
-      </div>
+      ></div>
       <div
-        className="photoBottomRight"
         onMouseEnter={() => setHeadshot(headshot10)}
         onTouchMove={(e) => trackPointer(e)}
-      >
-        24
-      </div>
+      ></div>
       <div
-        className="photoBottomRight"
         onMouseEnter={() => setHeadshot(headshot9)}
         onTouchMove={(e) => trackPointer(e)}
-      >
-        25
-      </div>
-      {/* <div
-        className="photoBottomRight"
-        onMouseEnter={() => setHeadshot(headshot9)}
-        onTouchMove={(e) => trackPointer(e)}
-      >
-        26
-      </div>
-      <div
-        className="photoBottomRight"
-        onMouseEnter={() => setHeadshot(headshot9)}
-        onTouchMove={(e) => trackPointer(e)}
-      >
-        27
-      </div>
-      <div
-        className="photoBottomRight"
-        onMouseEnter={() => setHeadshot(headshot9)}
-        onTouchMove={(e) => trackPointer(e)}
-      >
-        28
-      </div>
-      <div
-        className="photoBottomRight"
-        onMouseEnter={() => setHeadshot(headshot9)}
-        onTouchMove={(e) => trackPointer(e)}
-      >
-        29
-      </div>
-      <div
-        className=""
-        onMouseEnter={() => setHeadshot(headshot9)}
-        onTouchMove={(e) => trackPointer(e)}
-      >
-        30
-      </div> */}
+      ></div>
       <img src={headshot} />
-      {/* <div className="dot"></div> */}
     </div>
   );
 };
