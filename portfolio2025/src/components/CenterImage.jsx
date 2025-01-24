@@ -366,6 +366,41 @@ const CenterImage = () => {
       >
         25
       </div>
+      {/* <div
+        className="photoBottomRight"
+        onMouseEnter={() => setHeadshot(headshot9)}
+        onTouchMove={(e) => trackPointer(e)}
+      >
+        26
+      </div>
+      <div
+        className="photoBottomRight"
+        onMouseEnter={() => setHeadshot(headshot9)}
+        onTouchMove={(e) => trackPointer(e)}
+      >
+        27
+      </div>
+      <div
+        className="photoBottomRight"
+        onMouseEnter={() => setHeadshot(headshot9)}
+        onTouchMove={(e) => trackPointer(e)}
+      >
+        28
+      </div>
+      <div
+        className="photoBottomRight"
+        onMouseEnter={() => setHeadshot(headshot9)}
+        onTouchMove={(e) => trackPointer(e)}
+      >
+        29
+      </div>
+      <div
+        className=""
+        onMouseEnter={() => setHeadshot(headshot9)}
+        onTouchMove={(e) => trackPointer(e)}
+      >
+        30
+      </div> */}
       <img src={headshot} />
       {/* <div className="dot"></div> */}
     </div>
