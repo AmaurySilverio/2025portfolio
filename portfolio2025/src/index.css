@@ -115,7 +115,6 @@ body, html{
   position: relative;
   width: 75%;
   height: 80%;
-  object-fit: contain;
 }
 .projects-container{
     display: grid;
@@ -225,7 +224,8 @@ body, html{
   padding: 40px 40px;
   justify-items: center;
   box-sizing: border-box;
-  height: calc(100% - 12%);
+  /* height: calc(100% - 12%); */
+  height: 100%;
   background: rgb(198, 222, 241);
 
 }
