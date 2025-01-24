@@ -111,10 +111,12 @@ body, html{
 }
 .projects-inner-wrapper{
   left: 0px;
-  bottom: 0px;
+  bottom: -100px;
   position: relative;
   width: 75%;
   height: 80%;
+  animation: smooth-appear 0.5s ease forwards;
+  opacity: 0;
 }
 .projects-container{
     display: grid;
@@ -130,7 +132,8 @@ body, html{
     justify-items: center;
     box-sizing: border-box;
     /* height: calc(100% - 12%); */
-    height: -webkit-fill-available;
+    /* height: -webkit-fill-available; */
+    height: 100%;
     /* height: inherit; */
 }
 .projects-close-button{
@@ -184,11 +187,26 @@ body, html{
   top: 0;
   left: 0;
 }
+/* @keyframes smooth-disappear {
+  to{
+    left: 0px;
+    bottom: -100px;
+    opacity:0;
+  }
+} */
 .display-none{
   display: none;
+  /* animation: smooth-disappear 0.5s ease reverse; */
 }
 
 /* CONTACT MODAL STYLING */
+@keyframes smooth-appear {
+  to{
+    left: 0px;
+    bottom: 0px;
+    opacity:1;
+  }
+}
 .contact-outer-wrapper{
   height: 100%;
   left: 0;
@@ -202,15 +220,18 @@ body, html{
   position: fixed;
   align-items: center;
   z-index: 100;
-  background-color: rgba(255, 255, 255, 0.678); 
+  background-color: rgba(255, 255, 255, 0.678);
 }
 .contact-inner-wrapper{
   left: 0px;
-  bottom: 0px;
+  bottom: -100px;
   position: relative;
   height: fit-content;
   width: 65%;
   font-size: 16px;
+  /* transform: translateX(-50%); */
+  animation: smooth-appear 0.5s ease forwards;
+  opacity: 0;
 }
 .contact-container{
   display: grid;
@@ -227,7 +248,6 @@ body, html{
   /* height: calc(100% - 12%); */
   height: 100%;
   background: rgb(198, 222, 241);
-
 }
 .contact-close-button{
   position: absolute;
