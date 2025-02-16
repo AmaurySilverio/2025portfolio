@@ -291,7 +291,11 @@ const CenterImage = () => {
         onMouseEnter={() => setHeadshot(headshot9)}
         onTouchMove={(e) => trackPointer(e)}
       ></div>
-      <img src={headshot} />
+      <div className="img-container">
+        <div className="overflow">
+          <img src={headshot} class="center-image" />
+        </div>
+      </div>
     </div>
   );
 };

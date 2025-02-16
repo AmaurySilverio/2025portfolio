@@ -26,7 +26,7 @@ const ProjectsModal = ({ show, onClick }) => {
               Language. The front-end was created using EJS, Javascript, CSS,
               and Bootstrap. The back-end was created using MongoDB and Node.JS.
             </p>
-            <a href="https://asl-lingo.cyclic.app/" target="_blank">
+            <a href="https://asl-lingo.onrender.com/" target="_blank">
               <button>View Project</button>
             </a>
           </div>

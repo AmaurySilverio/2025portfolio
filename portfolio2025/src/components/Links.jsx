@@ -25,7 +25,8 @@ const Links = () => {
         <div className="links">
           <a
             className="social-link"
-            href="https://amauryresume.tiiny.site/"
+            // href="https://archive.org/details/software-development-resume"
+            href="/Software Development Resume.pdf"
             target="_blank"
           >
             Resume
