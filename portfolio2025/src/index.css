@@ -537,6 +537,9 @@ body, html{
   }
 }
 @media (max-width: 481px) {
+  .links-container{
+    margin-top: 10px;
+  }
   .hero-container{
     top: 20px;
   }
