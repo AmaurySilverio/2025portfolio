@@ -19,7 +19,7 @@ import headshot15 from "../../photos/portfolio-pics/image15.jpg";
 import headshot16 from "../../photos/portfolio-pics/image16.jpg";
 
 const CenterImage = () => {
-  const [headshot, setHeadshot] = useState(headshot1);
+  const [headshot, setHeadshot] = useState(clickedHeadshot);
   function trackPointer(event) {
     let x = event.touches[0].clientX;
     let y = event.touches[0].clientY;
@@ -242,6 +242,7 @@ const CenterImage = () => {
         onMouseEnter={() => setHeadshot(originalHeadshot)}
         onTouchMove={(e) => trackPointer(e)}
         onClick={() => setHeadshot(clickedHeadshot)}
+        className="clicked"
       ></div>
       <div
         onMouseEnter={() => setHeadshot(headshot7)}

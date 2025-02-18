@@ -96,6 +96,73 @@ body, html{
   justify-content: center;
   overflow: hidden;
 }
+/* .clicked{
+  cursor: pointer;
+} */
+/* .img1{
+  position: relative;
+  right: -2816px;
+}
+.img2{
+  position: relative;
+  right: -2440px;
+}
+.img3{
+  position: relative;
+  right: -2065px;
+}
+.img4{
+  position: relative;
+  right: -1689px;
+}
+.img5{
+  position: relative;
+  right: -1314px;
+}
+.img6{
+  position: relative;
+  right: -939px;
+}
+.img7{
+  position: relative;
+  right: -563px;
+}
+.img8{
+  position: relative;
+  right: -188px;
+}
+.img9{
+  position: relative;
+  right: 188px;
+}
+.img10{
+  position: relative;
+  right: 563px;
+}
+.img11{
+  position: relative;
+  right: 939px;
+}
+.img12{
+  position: relative;
+  right: 1314px;
+}
+.img13{
+  position: relative;
+  right: 1690px;
+}
+.img14{
+  position: relative;
+  right: 2065px;
+}
+.img15{
+  position: relative;
+  right: 2441px;
+}
+.img16{
+  position: relative;
+  right: 2816px;
+} */
 
 /* LINKS STYLING */
 .links-container{
