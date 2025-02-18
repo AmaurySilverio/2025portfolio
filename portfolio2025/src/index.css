@@ -90,7 +90,7 @@ body, html{
 }
 .overflow{
   width: 400px;
-  height: 446px;
+  height: 445px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -537,9 +537,6 @@ body, html{
   }
 }
 @media (max-width: 481px) {
-  .links-container{
-    margin-top: 10px;
-  }
   .hero-container{
     top: 20px;
   }
@@ -554,13 +551,13 @@ body, html{
 }
 .overflow{
   width: 280px;
-  height: 339px;
+  height: 336px;
 }
 .contact-inner-wrapper{
   width: 88%;
 }
 .links-container{
-  padding: 20px;
+  padding: 20px 20px 10px 20px;
 }
 .links{
   gap: 11px;
