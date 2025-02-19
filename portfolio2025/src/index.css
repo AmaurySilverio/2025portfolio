@@ -582,6 +582,11 @@ body, html{
   font-size: 33px;
 }
 }
+@media screen and (max-height: 740px) {
+  .links-container{
+    bottom: 0;
+  }
+}
 @media (max-width: 360px) and (max-height: 740px) {
   /* .photo-container img{
     top: 103px;
