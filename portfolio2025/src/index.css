@@ -633,6 +633,11 @@ body, html{
     gap: 5px;
 }
 }
+@media screen and (max-width: 872px){
+  .links{
+    gap:5px
+  }
+}
 /* 4K QUERY */
 /* .hero-container>h1{
   font-size: 86px;
