@@ -1,5 +1,6 @@
 import { useRef, useEffect, useState } from "react";
 import aslLingo from "../../../photos/projects/ASL-Lingo.gif";
+import arrange from "../../../photos/projects/arrange-portfolio.gif";
 import communityCatalyst from "../../../photos/projects/community-catalyst.gif";
 import connections from "../../../photos/projects/connections.gif";
 import mozilla from "../../../photos/projects/mozilla.gif";
@@ -18,6 +19,35 @@ const ProjectsModal = ({ show, onClick }) => {
           <img src={closeImg} />
         </button>
         <div className="projects-container">
+          <div className="project">
+            <img src={arrange} />
+            <h3>[arr]ange</h3>
+            <p>
+              A Job Application Tracker with a built-in Pomodoro Timer to boost
+              productivity. The front-end is built with React.js, featuring
+              components I designed and developed. The back-end is powered by
+              Appwrite.
+            </p>
+            <a href="https://arrange-hitlist.netlify.app/" target="_blank">
+              <button>View Project</button>
+            </a>
+          </div>
+          <div className="project">
+            <img src={connections} />
+            <h3>Connections Game</h3>
+            <p>
+              New York Times Connections clone where you can create your own
+              custom game! The front-end was created using React, JS, and CSS.
+              The back-end was created using python and MongoDB. Create a game
+              and share with friends!
+            </p>
+            <a
+              href="https://freestyleconnections.onrender.com/"
+              target="_blank"
+            >
+              <button>View Project</button>
+            </a>
+          </div>
           <div className="project">
             <img src={aslLingo} />
             <h3>ASL-Lingo</h3>
@@ -44,22 +74,6 @@ const ProjectsModal = ({ show, onClick }) => {
             </a>
           </div>
           <div className="project">
-            <img src={connections} />
-            <h3>Connections Game</h3>
-            <p>
-              New York Times Connections clone where you can create your own
-              custom game! The front-end was created using React, JS, and CSS.
-              The back-end was created using python and MongoDB. Create a game
-              and share with friends!
-            </p>
-            <a
-              href="https://freestyleconnections.onrender.com/"
-              target="_blank"
-            >
-              <button>View Project</button>
-            </a>
-          </div>
-          <div className="project">
             <img src={cardGame} />
             <h3>Matching Card Game</h3>
             <p>
@@ -70,7 +84,7 @@ const ProjectsModal = ({ show, onClick }) => {
               <button>View Project</button>
             </a>
           </div>
-          <div className="project">
+          {/* <div className="project">
             <img src={slotMachine} />
             <h3>Slot Machine Game</h3>
             <p>
@@ -79,7 +93,7 @@ const ProjectsModal = ({ show, onClick }) => {
             <a href="https://wrestlingslotmachine.netlify.app/" target="_blank">
               <button>View Project</button>
             </a>
-          </div>
+          </div> */}
           <div className="project">
             <img src={mozilla} />
             <h3>Mozilla Mock-up</h3>

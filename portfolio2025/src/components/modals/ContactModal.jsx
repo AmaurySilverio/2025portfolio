@@ -35,11 +35,44 @@ const ContactModal = ({ show, onClick }) => {
             </p>
           </div>
           <div className="icons-container">
-            <img className="icon" src={bicycle} alt="bicycle icon" />
-            <img className="icon" src={cooking} alt="cooking icon" />
-            <img className="icon" src={code} alt="code snippet icon" />
-            <img className="icon" src={gardening} alt="gardening icon" />
-            <img className="icon" src={boardGame} alt="board game icon" />
+            <a
+              href="https://www.flaticon.com/free-icons/bike"
+              title="Bike icons created by Freepik - Flaticon"
+              target="_blank"
+            >
+              <img className="icon" src={bicycle} alt="bicycle icon"></img>
+            </a>
+            <a
+              href="https://www.flaticon.com/free-icons/cooking"
+              title="Cooking icons created by Freepik - Flaticon"
+              target="_blank"
+            >
+              <img className="icon" src={cooking} alt="cooking icon" />
+            </a>
+            <a
+              href="https://www.flaticon.com/free-icons/code"
+              title="Code icons created by Royyan Wijaya - Flaticon"
+              target="_blank"
+            >
+              {" "}
+              <img className="icon" src={code} alt="code snippet icon" />
+            </a>
+            <a
+              href="https://www.flaticon.com/free-icons/gardening"
+              title="Gardening icons created by Freepik - Flaticon"
+              target="_blank"
+            >
+              {" "}
+              <img className="icon" src={gardening} alt="gardening icon" />
+            </a>
+            <a
+              href="https://www.flaticon.com/free-icons/board-game"
+              title="Board game icons created by Freepik - Flaticon"
+              target="_blank"
+            >
+              {" "}
+              <img className="icon" src={boardGame} alt="board game icon" />
+            </a>
           </div>
           <div className="contact-blurb">
             <p>
