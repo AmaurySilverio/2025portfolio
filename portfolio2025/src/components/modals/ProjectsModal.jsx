@@ -6,6 +6,7 @@ import connections from "../../../photos/projects/connections.gif";
 import mozilla from "../../../photos/projects/mozilla.gif";
 import cardGame from "../../../photos/projects/naruto-card-game.gif";
 import slotMachine from "../../../photos/projects/slotMachine.gif";
+import slimeMolds from "../../../photos/projects/slimeMolds";
 import closeImg from "../../../photos/x-thin-svgrepo-com.svg";
 
 const ProjectsModal = ({ show, onClick }) => {
@@ -74,6 +75,19 @@ const ProjectsModal = ({ show, onClick }) => {
             </a>
           </div>
           <div className="project">
+            <img src={slimeMolds} />
+            <h3>Slime Molds Visualizer</h3>
+            <p>
+              An interactive simulation inspired by the movement patterns of
+              Slime Molds, generated using a custom algorithm. Users can
+              customize the color, size, and background to create mesmerizing
+              scenes. Built with p5.js.
+            </p>
+            <a href="https://physarum.netlify.app/" target="_blank">
+              <button>View Project</button>
+            </a>
+          </div>
+          {/* <div className="project">
             <img src={cardGame} />
             <h3>Matching Card Game</h3>
             <p>
@@ -83,7 +97,7 @@ const ProjectsModal = ({ show, onClick }) => {
             <a href="https://narutocardgame.netlify.app/" target="_blank">
               <button>View Project</button>
             </a>
-          </div>
+          </div> */}
           {/* <div className="project">
             <img src={slotMachine} />
             <h3>Slot Machine Game</h3>
