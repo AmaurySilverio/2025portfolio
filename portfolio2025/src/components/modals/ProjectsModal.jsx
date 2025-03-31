@@ -35,7 +35,7 @@ const ProjectsModal = ({ show, onClick }) => {
           </div>
           <div className="project">
             <img src={connections} />
-            <h3>Connections Game</h3>
+            <h3>Connections</h3>
             <p>
               New York Times Connections clone where you can create your own
               custom game! The front-end was created using React, JS, and CSS.
