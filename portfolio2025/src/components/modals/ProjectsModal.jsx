@@ -6,7 +6,7 @@ import connections from "../../../photos/projects/connections.gif";
 import mozilla from "../../../photos/projects/mozilla.gif";
 import cardGame from "../../../photos/projects/naruto-card-game.gif";
 import slotMachine from "../../../photos/projects/slotMachine.gif";
-import slimeMolds from "../../../photos/projects/slimeMolds";
+import slimeMolds from "../../../photos/projects/slime-molds-gif.gif";
 import closeImg from "../../../photos/x-thin-svgrepo-com.svg";
 
 const ProjectsModal = ({ show, onClick }) => {
