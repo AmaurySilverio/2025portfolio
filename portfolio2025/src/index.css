@@ -266,6 +266,12 @@ body, html{
   background: rgb(198, 222, 241);
   border-radius: 10px;
   /* width: 224.77px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.card-content{
 }
 .project img{
   width: 100%;

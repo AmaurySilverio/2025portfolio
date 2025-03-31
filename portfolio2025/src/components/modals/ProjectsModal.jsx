@@ -21,27 +21,31 @@ const ProjectsModal = ({ show, onClick }) => {
         </button>
         <div className="projects-container">
           <div className="project">
-            <img src={arrange} />
-            <h3>[arr]ange</h3>
-            <p>
-              A Job Application Tracker with a built-in Pomodoro Timer to boost
-              productivity. The front-end is built with React.js, featuring
-              components I designed and developed. The back-end is powered by
-              Appwrite.
-            </p>
+            <div className="card-content">
+              <img src={arrange} />
+              <h3>[arr]ange</h3>
+              <p>
+                A Job Application Tracker with a built-in Pomodoro Timer to
+                boost productivity. The front-end is built in React with
+                Javascript and CSS, featuring components I designed and
+                developed. The back-end is powered by Appwrite.
+              </p>
+            </div>
             <a href="https://arrange-hitlist.netlify.app/" target="_blank">
               <button>View Project</button>
             </a>
           </div>
           <div className="project">
-            <img src={connections} />
-            <h3>Connections</h3>
-            <p>
-              New York Times Connections clone where you can create your own
-              custom game! The front-end was created using React, JS, and CSS.
-              The back-end was created using python and MongoDB. Create a game
-              and share with friends!
-            </p>
+            <div className="card-content">
+              <img src={connections} />
+              <h3>Connections</h3>
+              <p>
+                New York Times Connections clone where you can create your own
+                custom game! The front-end is built in React with Javascript and
+                CSS. The back-end is built using Python and MongoDB. Create a
+                game and share with friends!
+              </p>
+            </div>
             <a
               href="https://freestyleconnections.onrender.com/"
               target="_blank"
@@ -50,39 +54,45 @@ const ProjectsModal = ({ show, onClick }) => {
             </a>
           </div>
           <div className="project">
-            <img src={aslLingo} />
-            <h3>ASL-Lingo</h3>
-            <p>
-              MVP Full-Stack Application that teaches users basic American Sign
-              Language. The front-end was created using EJS, Javascript, CSS,
-              and Bootstrap. The back-end was created using MongoDB and Node.JS.
-            </p>
+            <div className="card-content">
+              <img src={aslLingo} />
+              <h3>ASL-Lingo</h3>
+              <p>
+                MVP Full-Stack Application that teaches users basic American
+                Sign Language. The front-end is built using EJS, CSS, and
+                Bootstrap. The back-end is built using MongoDB and Node.js.
+              </p>
+            </div>
             <a href="https://asl-lingo.onrender.com/" target="_blank">
               <button>View Project</button>
             </a>
           </div>
           <div className="project">
-            <img src={communityCatalyst} />
-            <h3>Community Catalyst</h3>
-            <p>
-              MVP Full-Stack Application that allows members of your community
-              to connect and create meaningful impact through event organizing.
-              The front-end was created using EJS and CSS. The back-end was
-              created using Node.JS and MongoDB.
-            </p>
+            <div className="card-content">
+              <img src={communityCatalyst} />
+              <h3>Community Catalyst</h3>
+              <p>
+                MVP Full-Stack Application that allows members of your community
+                to connect and create meaningful impact through event
+                organizing. The front-end is built using EJS and CSS. The
+                back-end is built using Node.js and MongoDB.
+              </p>
+            </div>
             <a href="https://community-catalyst.onrender.com/" target="_blank">
               <button>View Project</button>
             </a>
           </div>
           <div className="project">
-            <img src={slimeMolds} />
-            <h3>Slime Molds Visualizer</h3>
-            <p>
-              An interactive simulation inspired by the movement patterns of
-              Slime Molds, generated using a custom algorithm. Users can
-              customize the color, size, and background to create mesmerizing
-              scenes. Built with p5.js.
-            </p>
+            <div className="card-content">
+              <img src={slimeMolds} />
+              <h3>Slime Molds Visualizer</h3>
+              <p>
+                An interactive simulation inspired by the movement patterns of
+                Slime Molds, generated using a custom algorithm. Users can
+                customize the color, size, and background to create mesmerizing
+                scenes. Created with p5.js.
+              </p>
+            </div>
             <a href="https://physarum.netlify.app/" target="_blank">
               <button>View Project</button>
             </a>
@@ -109,11 +119,13 @@ const ProjectsModal = ({ show, onClick }) => {
             </a>
           </div> */}
           <div className="project">
-            <img src={mozilla} />
-            <h3>Mozilla Mock-up</h3>
-            <p>
-              Responsive mock-up of Mozilla's site created using HTML & CSS.
-            </p>
+            <div className="card-content">
+              <img src={mozilla} />
+              <h3>Mozilla Mock-up</h3>
+              <p>
+                Responsive mock-up of Mozilla's site created using HTML & CSS.
+              </p>
+            </div>
             <a href="https://mozillamockup.netlify.app/" target="_blank">
               <button>View Project</button>
             </a>

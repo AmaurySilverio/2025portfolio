@@ -294,7 +294,7 @@ const CenterImage = () => {
       ></div>
       <div className="img-container">
         <div className="overflow">
-          <img src={headshot} class="center-image" />
+          <img src={headshot} className="center-image" />
         </div>
       </div>
     </div>
