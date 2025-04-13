@@ -3,7 +3,6 @@
 *{
   font-family: "Overpass Mono";
   box-sizing: border-box;
-
 }
 
 body, html{
@@ -25,10 +24,30 @@ body, html{
   right: 0;
   margin-inline: auto;
   width: fit-content;
-  z-index: -1;
+  /* z-index: -1; */
 }
 .hero-container>h1{
   font-size: 50px;
+  cursor: default;
+}
+.bounce{
+  display: inline-block;
+  transition: transform 0.3s;
+  will-change: transform;
+}
+.bounce:hover{
+  animation: wave 0.8s ease-in-out both;
+}
+.tap-bounce {
+  animation: wave 0.8s ease-in-out both;
+}
+@keyframes wave {
+  0%, 40%, 100%{ 
+    transform: translateY(0); 
+  }
+  20%{ 
+    transform: translateY(-12px);
+  }
 }
 
 /* IMAGE STYLING */
@@ -101,67 +120,75 @@ body, html{
 } */
 /* .img1{
   position: relative;
-  right: -2816px;
+  right: -3180px;
 }
 .img2{
   position: relative;
-  right: -2440px;
+  right: -2806px;
 }
 .img3{
   position: relative;
-  right: -2065px;
+  right: -2432px;
 }
 .img4{
   position: relative;
-  right: -1689px;
+  right: -2058px;
 }
 .img5{
   position: relative;
-  right: -1314px;
+  right: -1684px;
 }
 .img6{
   position: relative;
-  right: -939px;
+  right: -1310px
 }
 .img7{
   position: relative;
-  right: -563px;
+  right: -936px;
 }
 .img8{
   position: relative;
-  right: -188px;
+  right: -562px;
 }
 .img9{
   position: relative;
-  right: 188px;
+  right: -188px;
 }
 .img10{
   position: relative;
-  right: 563px;
+  right: 187px;
 }
 .img11{
   position: relative;
-  right: 939px;
+  right: 561px;
 }
 .img12{
   position: relative;
-  right: 1314px;
+  right: 935px;
 }
 .img13{
   position: relative;
-  right: 1690px;
+  right: 1309px;
 }
 .img14{
   position: relative;
-  right: 2065px;
+  right: 1683px;
 }
 .img15{
   position: relative;
-  right: 2441px;
+  right: 2057px;
 }
 .img16{
   position: relative;
-  right: 2816px;
+  right: 2431px
+}
+.hoverHeadshot{
+  position: relative;
+  right: 2805px;
+}
+.clickedHeadshot{
+  position: relative;
+  right: 3179px;
 } */
 
 /* LINKS STYLING */

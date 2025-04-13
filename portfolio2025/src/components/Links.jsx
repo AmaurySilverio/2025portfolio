@@ -25,7 +25,7 @@ const Links = () => {
         <div className="links">
           <a
             className="social-link"
-            href="/Software Development Resume.pdf"
+            href="/Software Engineer Resume.pdf"
             target="_blank"
           >
             Resume
