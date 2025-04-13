@@ -31,6 +31,12 @@ const getGridPosition = (x, y, width, height) => {
   const row = Math.floor((y / height) * 5);
   return { col, row };
 };
+const preloadImages = (imageArray) => {
+  imageArray.forEach((src) => {
+    const img = new Image();
+    img.src = src;
+  });
+};
 
 const CenterImage = () => {
   const [headshot, setHeadshot] = useState(clickedHeadshot);
@@ -74,6 +80,31 @@ const CenterImage = () => {
       setCenterClicked(true);
       setHeadshot(clickedHeadshot);
     }
+  }, []);
+
+  useEffect(() => {
+    const allImages = [
+      originalHeadshot,
+      clickedHeadshot,
+      headshot1,
+      headshot2,
+      headshot3,
+      headshot4,
+      headshot5,
+      headshot6,
+      headshot7,
+      headshot8,
+      headshot9,
+      headshot10,
+      headshot11,
+      headshot12,
+      headshot13,
+      headshot14,
+      headshot15,
+      headshot16,
+    ];
+
+    preloadImages(allImages);
   }, []);
 
   useEffect(() => {
