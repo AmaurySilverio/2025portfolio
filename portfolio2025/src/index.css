@@ -412,11 +412,13 @@ body, html{
 }
 .icons-container a{
   display: flex;
+  height: 71px;
+  width: 71px;
 }
 .icon{
   margin: 8px;
   flex: 0 1 calc(20% - 16px);
-  height: inherit;
+  /* height: inherit; */
 }
 .contact-email-link{
   padding: 15px 25px;
@@ -492,6 +494,10 @@ body, html{
   .icons-container{
     height: 65px;
   }
+  .icons-container a{
+    height: 65px;
+    width: 65px;
+  }
 }
 @media(max-width: 877px){
   .contact-inner-wrapper{
@@ -499,6 +505,10 @@ body, html{
   }
   .icons-container{
     height: 62px;
+  }
+  .icons-container a{
+    height: 62px;
+    width: 62px;
   }
 }
 @media(max-width: 826px){
@@ -511,10 +521,18 @@ body, html{
   .icons-container{
     height: 59px;
   }
+  .icons-container a{
+    height: 59px;
+    width: 59px;
+  }
 }
 @media(max-width: 739px){
   .icons-container{
     height: 55px;
+  }
+  .icons-container a{
+    height: 55px;
+    width: 55px;
   }
 }
 @media(max-width: 788px){
