@@ -2,8 +2,8 @@
 
 Welcome to my portfolio — where tech meets a tiny bit of magic.
 
-🧠 Built with **React** and **CSS**, this isn't your typical "here's my work" site.  
-Instead, try moving your mouse (or finger, if you're on mobile) around the screen... and enjoy the little trick I built for you.
+🧠 Built with **React** and **CSS**, this portfolio is more than a collection of projects — it’s an interactive experience designed to demonstrate creativity, responsiveness, and attention to detail.
+Move your cursor (or finger, on mobile) across the screen to see it in action.
 
 ## 🖼️ Preview
 
