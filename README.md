@@ -7,7 +7,9 @@ Instead, try moving your mouse (or finger, if you're on mobile) around the scree
 
 ## 🖼️ Preview
 
-![Portfolio Screenshot](portfolio2025/photos/portfolio.gif)
+<p align="center">
+  <img src="portfolio2025/photos/portfolio.gif" alt="Portfolio Gif" />
+</p>
 
 ## 🔧 Tech Stack
 
