@@ -33,7 +33,7 @@ const getGridPosition = (x, y, width, height) => {
 };
 
 const CenterImage = () => {
-  const [headshot, setHeadshot] = useState(originalHeadshot);
+  const [headshot, setHeadshot] = useState(clickedHeadshot);
   const [centerClicked, setCenterClicked] = useState(false);
 
   const isCenter = (col, row) => col === 2 && row === 2;
