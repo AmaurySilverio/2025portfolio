@@ -19,14 +19,20 @@ const ContactModal = ({ show, onClick }) => {
           <div className="del-blurb">
             <p>
               As a software engineer, I tend to gravitate towards projects that
-              emphasize community, safety, and fun. I am also committed to
-              addressing real world problems through software engineering. My
-              recent project, ASL Lingo, is a full-stack website dedicated to
-              teaching users American Sign Language. This project came into
-              fruition when I realized DuoLingo didn't offer ASL on their
-              platform. Be on the look out for my new community cookbook App,{" "}
-              <span className="pot-luck-bold">Pot Luck</span>, coming this
-              spring!
+              emphasize community, safety, and fun. I'm especially driven to
+              create tools that address real-world challenges through thoughtful
+              and inclusive engineering. With experience across both front-end
+              and back-end development, I enjoy collaborating on user-centered
+              solutions that make a meaningful impact. One of my recent
+              projects, ASL Lingo, is a full-stack web application designed to
+              help users learn American Sign Language. When I saw DuoLingo
+              didn't offer ASL, I set out to build a tool that does.
+              {/* I'm also
+              excited to share my upcoming project,{" "}
+              <span className="pot-luck-bold">Pot Luck</span>, a community
+              cookbook app launching this summer. */}
+              {/* It's all about celebrating
+              culture, connection, and good food. */}
             </p>
             <p>
               When I'm not coding, I enjoy riding my bike with friends, trying
@@ -76,9 +82,9 @@ const ContactModal = ({ show, onClick }) => {
           </div>
           <div className="contact-blurb">
             <p>
-              I would love to hear from you and discuss any potential
-              opportunities or collaborations. I'm especially open to food recs
-              in the Philadelphia area :)
+              I'm currently accepting freelance clients and always open to
+              meaningful collaborations. Let's bring your ideas to life. And if
+              you've got any favorite food spots in Philly, send them my way!
             </p>
           </div>
           <a className="contact-email-link" href="mailto:amaurycodes@gmail.com">
